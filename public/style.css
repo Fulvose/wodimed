@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,300;1,400;1,500;1,600&display=swap");
+
+:root {
+  --color1: #5582c6;
+  --color2: #f53855;
+  --color3: #4f5665;
+  --text-color: #777777;
+  --border-color: #201f1f17;
+  --gradient: linear-gradient(to bottom, #3932ff 0%, #3b81a7);
+  --shadow-color: 0px 10px 30px rgba(75, 71, 71, 0.3);
+  --box-shadow: 12px 25px 42px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+  color: black;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+a:hover {
+  color: black;
+}
+
+.navbar {
+  padding: 2.3rem 1rem 2.3rem 7.5rem;
+  border-bottom: rgba(157, 187, 221, 0.651) 0.5px solid;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.5em;
+  color: var(--color1) !important;
+}
+
+.color1 {
+  color: var(--color1);
+}
+
+.color2 {
+  color: var(--color2);
+}
+
+.dropdown-content {
+  color: black !important;
+  display: none;
+  position: absolute;
+  padding-top: 0.8rem;
+  background-color: transparent !important;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.dropdown {
+  margin-right: 4rem;
+  position: relative;
+}
+
+.dropdown-content a {
+  color: black !important;
+  padding: 1em 2em !important;
+  text-decoration: none;
+  display: block;
+  background: white;
+}
+
+.dropdown-content a:hover {
+  background: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar-toggler {
+  border: none !important;
+  color: var(--color1) !important;
+}
+
+.navbar-toggler-icon {
+  color: var(--color1) !important;
+}
+
+.nav-link {
+  padding: 0 2rem !important;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: var(--color3);
+}
+
+header a.active {
+  color: rgb(0, 0, 0) !important;
+}
+
+footer {
+  background: linear-gradient(to bottom, rgb(230, 230, 230), #fff 33%);
+  padding: 10vmin;
+  margin-top: 8rem;
+  color: white;
+}
+
+footer h4 {
+  color: var(--color1);
+  font-weight: 600;
+  font-style: italic;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer .fab {
+  font-size: 1.6rem;
+  padding: 0 0.2em;
+  color: var(--color1);
+  cursor: pointer;
+}
+
+footer .input-group-text {
+  background: var(--gradient);
+  border: none;
+}
+
+footer input {
+  max-width: 70%;
+}
+
+/* JS */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 100;
+  transition: all 1.5s ease;
+  padding: 1rem 0rem 1rem 7rem !important;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 1400px) {
+  html {
+    background-color: lightblue;
+    font-size: 12px;
+  }
+}

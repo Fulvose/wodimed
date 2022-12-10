@@ -1,0 +1,37 @@
+@media screen and (max-width: 1200px) {
+  .header-img {
+    background-image: url("img/header-img-small.png");
+  }
+
+  .s1 .panel {
+    position: initial;
+    min-height: 24em;
+    width: initial;
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  html {
+    font-size: 0.8rem;
+  }
+
+  .navbar {
+    padding-left: 2rem;
+  }
+
+  header h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .s1 .panel {
+    margin-top: 3rem;
+    min-height: 10em;
+  }
+
+  header .header-text {
+    text-align: center;
+  }
+}

@@ -1,0 +1,46 @@
+.s1 {
+  padding: 3rem 10rem;
+}
+
+.bar {
+  padding: 0 2rem;
+  border-bottom: solid var(--color1) 0.1px;
+  position: relative;
+  color: var(--color3);
+}
+
+.back {
+  font-size: 1.8rem;
+  position: absolute;
+  top: 3rem;
+  cursor: pointer;
+}
+
+.way {
+  padding-left: 0rem;
+  font-size: 1.2rem;
+}
+
+.purchase {
+  background: white;
+  width: 40%;
+  margin: auto;
+}
+
+.purchase h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: black;
+}
+
+.purchase p {
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}

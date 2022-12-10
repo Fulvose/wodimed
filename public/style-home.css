@@ -1,0 +1,136 @@
+header a {
+  font-size: 1.2em;
+}
+
+header a.active {
+  color: rgb(0, 0, 0) !important;
+}
+
+header a:hover {
+  color: black !important;
+}
+
+header .btn {
+  color: white;
+  margin-top: 0.8rem;
+  border-radius: 1rem;
+  padding: 0.6em 3.8em;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: var(--color1);
+}
+
+header .btn:hover {
+  background-color: var(--color2);
+}
+
+header .header-text {
+  padding: 10rem 0rem 10rem 3rem;
+}
+
+header .header-text h6 {
+  letter-spacing: 0.8rem !important;
+  margin-bottom: 0.1rem;
+}
+
+header .header-text p {
+  color: var(--color3);
+  font-size: 1.2rem;
+}
+
+header h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  color: black !important;
+}
+
+.header-img-col {
+  padding-left: 3.8rem;
+}
+
+.header-img {
+  background-image: url("img/header-img-small.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon-bar {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 550;
+  display: flex;
+  width: 100%;
+  padding: 2.8rem;
+  background-color: var(--color2);
+  justify-content: space-around;
+}
+
+.s1 {
+  padding: 8rem 0;
+}
+
+.s1 img {
+  opacity: 1;
+  width: 80%;
+  border-radius: 1rem;
+}
+
+.s1 .col-md-6:last-child {
+  position: relative;
+}
+
+.s1 .panel {
+  position: absolute;
+  box-shadow: var(--box-shadow);
+  top: 20%;
+  left: -20%;
+  text-align: left;
+
+  border-radius: 1rem;
+  padding: 8rem 5rem 5rem 5rem;
+  background-color: white;
+  min-height: 30em;
+}
+
+.s1 .panel h1 {
+  font-weight: bold;
+}
+
+.s1 .panel p {
+  opacity: 0.66;
+  font-size: 1.1rem;
+  line-height: 200%;
+}
+
+.s3 {
+  padding: 5rem 0;
+}
+
+.purchase h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.purchase p {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  line-height: 180%;
+}
+
+.s3 .video-link {
+  margin-top: 4rem;
+}
+
+.s3 .card {
+  width: 16rem;
+  margin: 2rem;
+  padding: 2em 1em;
+  box-shadow: 0 2em 24px 4px rgba(0, 0, 0, 0.3);
+}
+
+.s3 .pricing {
+  padding: 1em 0em 0 0;
+}
